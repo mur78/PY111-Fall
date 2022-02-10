@@ -42,7 +42,6 @@ class Queue:
         :param ind: index of element (count from the beginning)
         :return: peeked element
         """
-
         peek_val = self.queue[ind]
         return peek_val
 
