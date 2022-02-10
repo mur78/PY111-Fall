@@ -6,5 +6,6 @@ def check_brackets(brackets_row: str) -> bool:
     :return: True if valid, False otherwise
     """
     # (()) - с помощью стэка проверить корректность скобок
+    #
 
     return False
