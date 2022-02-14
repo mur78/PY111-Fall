@@ -16,8 +16,22 @@ class PriorityQueue:
 
         :param elem: element to be added
         :return: Nothing
+
         """
-        return None
+        # single_queue = [
+        #     {
+        #         "priority": "high",
+        #         "elem": "value"
+        #     },
+        #     {
+        #         "priority": "medium",
+        #         "elem": "value"
+        #     },
+        #     {
+        #         "priority": "low",
+        #         "elem": "value"
+        #     },
+        # ]
 
     def dequeue(self) -> Any:
         """
