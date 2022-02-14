@@ -54,7 +54,6 @@ class Queue:
     def clear(self) -> None:
         """
         Clear my queue
-
         :return: None
         """
         self.my_queue.clear()
