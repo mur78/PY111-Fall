@@ -36,12 +36,12 @@ class PriorityQueue:
         #     },
         # ]
 
-        a = [i for i in range(elem)]
-        for i in a:
-            self.my_priority_queue.insert(i, priority)
+        a = [value for value in range(elem)]
+        for value in a:
+            self.my_priority_queue.insert(value, priority)
 
         b = []
-        for v in a:
+        for pr in a:
             b.append(self.my_priority_queue.popleft())
 
         self.my_priority_queue.insert(0, elem)
