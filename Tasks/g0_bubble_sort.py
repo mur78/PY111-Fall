@@ -7,6 +7,7 @@ def sort(container: List[int], ascending: bool = True, inplace: bool = True) -> 
 
     :param container: container of elements to be sorted
     :return: container sorted in ascending order
+
     """
     if not inplace:
         container = container.copy()
