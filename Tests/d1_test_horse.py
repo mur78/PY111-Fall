@@ -18,7 +18,6 @@ class MyTestCase(unittest.TestCase):
     def test_4(self):
         self.assertEqual(191488, horse.calculate_paths((12, 10), (11, 9)),
                          msg=":)")
-
-
 if __name__ == '__main__':
+
     unittest.main()
