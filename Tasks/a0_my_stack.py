@@ -52,6 +52,7 @@ class Stack:
         # except IndexError:
         #     return None
        # todo fix test
+
         if ind >= len(self.stack):
             return None
 
@@ -60,6 +61,7 @@ class Stack:
 
     def clear(self) -> None:
         """
+
         Clear my stack
 
         :return: None
